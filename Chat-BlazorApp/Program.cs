@@ -49,6 +49,13 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+//app.UseEndpoints(endpoints =>
+//{
+//    endpoints.MapDefaultControllerRoute();
+//    endpoints.MapHub<ChatHub>(ChatClient.HUBURL);
+//    //endpoints.MapFallbackToPage("index.html");
+//});
+
 app.UseAuthentication();
 app.UseAuthorization();
 
